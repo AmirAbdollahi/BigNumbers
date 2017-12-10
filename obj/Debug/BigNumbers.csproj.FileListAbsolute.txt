@@ -1,0 +1,10 @@
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.csprojResolveAssemblyReference.cache
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.BasicCalculator.resources
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.Properties.Resources.resources
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.csproj.GenerateResource.Cache
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.csproj.CoreCompileInputs.cache
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\bin\Debug\BigNumbers.exe.config
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\bin\Debug\BigNumbers.exe
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\bin\Debug\BigNumbers.pdb
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.exe
+c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.pdb
