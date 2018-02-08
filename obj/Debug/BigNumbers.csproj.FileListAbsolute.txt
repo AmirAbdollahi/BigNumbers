@@ -8,3 +8,13 @@ c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\bin\De
 c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\bin\Debug\BigNumbers.pdb
 c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.exe
 c:\users\amir\documents\visual studio 2017\Projects\BigNumbers\BigNumbers\obj\Debug\BigNumbers.pdb
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\bin\Debug\BigNumbers.exe.config
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\bin\Debug\BigNumbers.exe
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\bin\Debug\BigNumbers.pdb
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\obj\Debug\BigNumbers.csprojResolveAssemblyReference.cache
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\obj\Debug\BigNumbers.BasicCalculator.resources
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\obj\Debug\BigNumbers.Properties.Resources.resources
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\obj\Debug\BigNumbers.csproj.GenerateResource.Cache
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\obj\Debug\BigNumbers.csproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\obj\Debug\BigNumbers.exe
+D:\OneDrive\Projects\C#\BigNumbers\BigNumbers\obj\Debug\BigNumbers.pdb

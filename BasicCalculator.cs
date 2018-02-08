@@ -72,5 +72,18 @@ namespace BigNumbers
                 nudDecimalPlaces.Hide();
             }
         }
+
+        private void BasicCalculator_Load(object sender, EventArgs e)
+        {
+            cmbOperators.SelectedIndex = 0;
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtBigNum1.Clear();
+            txtBigNum2.Clear();
+            cmbOperators.SelectedIndex = 0;
+            txtResult.Clear();
+        }
     }
 }

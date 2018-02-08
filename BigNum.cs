@@ -9,9 +9,9 @@ namespace BigNumbers
 
     class BigNum
     {
-        // The word "this", is "bigNum1"
+        // The term "this", is "bigNum1"
 
-        private sbyte[] numberArray = new sbyte[1000]; // Main array. size (length) of array can be changed, but is limited to memory of local system
+        private sbyte[] numberArray = new sbyte[10000]; // Main array. size (length) of array can be changed, but is limited to memory of local system
         private int decimalAccurancy;
         private int NumberOfDecimalPlaces { get; set; }
         private bool _isNegative;
@@ -655,13 +655,13 @@ namespace BigNumbers
             while (remainder.IsGreaterThanOrEqual(integeredBigNum2) && !remainder.IsZero())
             {
                 // calulate the division of first digits:
-                int intInitialQuitient = remainder.numberArray[remainder.GetFirstDigitIndex()] / integeredBigNum2.numberArray[integeredBigNum2.GetFirstDigitIndex()];
-                BigNum initialQuotient = new BigNum(intInitialQuitient.ToString());
+                int intInitialQuotient = remainder.numberArray[remainder.GetFirstDigitIndex()] / integeredBigNum2.numberArray[integeredBigNum2.GetFirstDigitIndex()];
+                BigNum initialQuotient = new BigNum(intInitialQuotient.ToString());
                 if (initialQuotient.IsZero()) // if the calculation result of division of first digits were zero
                 {
                     // calulate the division of first two digits of bigNum1 and first digit of bigNum2
-                    intInitialQuitient = (remainder.numberArray[remainder.GetFirstDigitIndex()] * 10 + remainder.numberArray[remainder.GetFirstDigitIndex() + 1]) / integeredBigNum2.numberArray[integeredBigNum2.GetFirstDigitIndex()];
-                    initialQuotient = new BigNum(intInitialQuitient.ToString());
+                    intInitialQuotient = (remainder.numberArray[remainder.GetFirstDigitIndex()] * 10 + remainder.numberArray[remainder.GetFirstDigitIndex() + 1]) / integeredBigNum2.numberArray[integeredBigNum2.GetFirstDigitIndex()];
+                    initialQuotient = new BigNum(intInitialQuotient.ToString());
                 }
                 BigNum mulResult = initialQuotient.Multiplication(integeredBigNum2);
                 // number of zeros to be added to the right side of mulResult and quotient

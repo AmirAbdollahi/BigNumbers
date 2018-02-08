@@ -38,6 +38,7 @@
             this.nudDecimalPlaces = new System.Windows.Forms.NumericUpDown();
             this.lblDecimalPlaces = new System.Windows.Forms.Label();
             this.txtResult = new System.Windows.Forms.TextBox();
+            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudDecimalPlaces)).BeginInit();
             this.SuspendLayout();
             // 
@@ -145,11 +146,23 @@
             this.txtResult.Size = new System.Drawing.Size(1301, 116);
             this.txtResult.TabIndex = 14;
             // 
+            // btnClear
+            // 
+            this.btnClear.AutoSize = true;
+            this.btnClear.Location = new System.Drawing.Point(121, 318);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 27);
+            this.btnClear.TabIndex = 18;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
             // BasicCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1434, 332);
+            this.ClientSize = new System.Drawing.Size(1434, 372);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.lblDecimalPlaces);
             this.Controls.Add(this.nudDecimalPlaces);
             this.Controls.Add(this.label3);
@@ -162,6 +175,7 @@
             this.Controls.Add(this.txtBigNum1);
             this.Name = "BasicCalculator";
             this.Text = "BasicCalculator";
+            this.Load += new System.EventHandler(this.BasicCalculator_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudDecimalPlaces)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -180,5 +194,6 @@
         private System.Windows.Forms.NumericUpDown nudDecimalPlaces;
         private System.Windows.Forms.Label lblDecimalPlaces;
         private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.Button btnClear;
     }
 }
